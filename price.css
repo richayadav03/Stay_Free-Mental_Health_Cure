@@ -1,0 +1,65 @@
+body{
+    background: #252830;
+}
+.products {
+	padding: 5% 0 0;
+}
+.card {
+    border: none;
+	box-shadow: 0 2px 20px rgba(0,0,0,0.5);
+}
+.card-body {
+	color: #fff;
+	background: #2a2f40;
+}
+.card-title {
+	font-size: 30px;
+	font-weight: 700;
+    transition: all .5s ease-in-out;
+}
+.btn-group .btn {
+	background: #fe6d38;
+	color: #fff;
+	font-size: 18px;
+	margin-right: 5px;
+	padding: 10px 20px;
+	font-weight: 700;
+    transition: all .6s ease-in;
+}
+.price {
+	font-size: 25px; 
+	font-weight: 900;    
+    transition: .6s;
+}
+.card:hover .price{
+    animation: pulse .5s ease-in-out infinite;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.95);
+    }
+    0%{
+        transform: scale(1);
+    }
+}
+.card:hover .card-title{
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+.btn:hover {
+	background: #fff;
+	color: #262626;
+}
+@media (max-width: 991px){
+    .card {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px){
+    .btn-group .btn {
+        font-size: 9px;
+    }
+}

@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(25, 26, 71);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+display: flex;
+height:50px;
+background-color: rgb(27, 27, 109);
+justify-content:space-around ;
+align-items: center;
+}
+nav ul{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+    transition:.5s;
+
+}
+nav ul li a:hover{
+    color:rgb(210, 174, 243);
+    font-size:1.15rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 65px;
+    margin-top:100px;
+}
+.leftsection{
+    /* background-color: rgb(87, 87, 165); */
+    font-size:2rem;
+    width:70%;
+    height:auto;
+    margin: 30px;
+    margin-top:60px;
+}
+.rightsection{
+    /* background-color: rgb(87, 87, 165); */
+}
+.firstsection > div{
+    width:40%;
+}
+#element{
+    font-style:oblique;
+    color:rgb(185, 142, 226);
+    text-shadow:0 0 40px rgb(175, 199, 108);
+}
+.rightsection img{
+    width: 284px;
+    height: 300px;
+    border-radius: 94cm;
+}
+.name{
+    color:rgb(185, 142, 226);
+
+}
+.sec-text li{
+/* list-style: none; */
+color: aqua;
+padding:0 20px;
+text-shadow:0 0 40px #0ef;
+}
+.wrapper{
+ 
+}
+.sec-text li span{
+    position:relative;
+    left:50px;
+   
+}
+.sec-text li span::before{
+    content:'';
+    height:400px;
+    width:90px;
+    background: red;
+    border-left:2px #0ef;
+
+}
+.second hr{
+    border:0;
+    background-color: blueviolet;
+    height:1.2px;
+    margin:94px 84px;   
+}
+.second{
+    max-width: 80vw;
+    margin:auto;
+    height:108vh;
+}
+.second h1{
+    font-size:1.9rem;
+}
+.text-gray{
+    color: gray;
+}
+.second .box{
+    background:white;
+    width:80vw;
+    height:2px;
+    margin:66px 0;
+    display:flex;
+
+}
+.second .vertical{
+    height:93px;
+    position:relative;
+    width:1px;
+    background-color: antiquewhite;
+    margin:0 150px;
+
+}
+.img-top{
+    height:43px;
+    width:32px;
+    position:relative;
+    top:-45px;
+    left:-28px;
+
+}
+.vertical-title{
+    position:relative;
+    top:58px;
+
+
+}
+.vertical-desc{
+    position: relative;
+    top: 74px;
+    color: gray;
+   
+}
+footer{
+
+    background-color: rgb(37 14 59);
+
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    margin:22px 120px; 
+}
+.footer > div{
+  margin: 10px 100px;
+}
+.footer-third ul li a{
+    list-style: none;
+    color: gray;
+    text-decoration:none;
+   
+}
+.footer-rights{
+    text-align: center;
+    color:gray;
+}
+.btn{
+    background-color: #4c77af; /* Green */
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+/* Your existing CSS styles go here */
+
+/* Styles for the education section */
+#education {
+    padding: 20px;
+}
+
+.education-item {
+    margin-bottom: 20px;
+}
+
+.education-item h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.education-item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
