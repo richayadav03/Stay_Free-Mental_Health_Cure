@@ -1,0 +1,15 @@
+We have implemented a one-to-one video conferencing tool using WebRTC technology. To make the functionality as an individual project file we uploaded that project in other github repository & deploy from that repo so that we can have an individual link in order to give to our user & therapist.
+
+Link of that repository:
+
+https://github.com/Aneri11U/Online_Video_Conferencing
+
+url after deploying for video chat application:
+
+  https://aneri11u.github.io/Online_Video_Conferencing/index.html?room=45
+
+  here this room id will be separately decided for the end user and therapist and will be updated in the database to have the record of each session.
+
+  also, this link for the session will be given to the user and therapist via mail.
+
+  this is only for 2 user in a room application which we actually needed.
