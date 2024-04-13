@@ -21,6 +21,7 @@ Stay-Free --- Mental Health Cure is a solution crafted to overcome the barriers 
 - User-friendly interface for easy navigation.
 - Customized support catering to individual preferences and requirements.
 - Real-time data stored in MySQL database via PHP, ensuring seamless access to user information.
+  
   <img width="655" alt="image" src="https://github.com/richayadav03/Stay_Free-Mental_Health_Cure/assets/124400638/19098c36-5d8c-4d2c-b095-1ce4b6178db4">
 
 ## Requirements
