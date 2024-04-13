@@ -9,6 +9,7 @@ This is an innovative application tailored to provide accessible, affordable, an
 - [Introduction](#introduction)
 - [Features](#features)
 - [Requirements](#requirements)
+- [Future Approaches](#future)
 
 ## Introduction
 
@@ -31,3 +32,10 @@ To run this project, you'll need the following technologies:
 - HTML, CSS, JavaScript for the frontend interface.
 - PHP for server-side processing and interaction with the MySQL database.
 - MySQL database for storing user data in real-time.
+
+## Future Approaches
+
+- Conference room link through respective EmailId (patient / therapist)
+- Sentiment Analysis
+- Face Recognition
+- Payments with 3D authentification
