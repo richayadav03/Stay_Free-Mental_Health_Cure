@@ -1,4 +1,6 @@
 # Stay-Free --- Mental Health Cure
+[Click Here for demo video](https://youtu.be/ZiplTA4RF2U?si=f0FhJcf4xbWOBcHn)
+
 
   ![logo](https://github.com/richayadav03/Stay_Free-Mental_Health_Cure/assets/124400638/824c7037-853e-4dac-a01a-c311ba38fab8)
 
